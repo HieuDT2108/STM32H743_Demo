@@ -1,9 +1,3 @@
-/*
- * adc_driver.h
- *
- *  Created on: Jan 8, 2024
- *      Author: Le Nguyen Van Duong
- */
 
 #ifndef SOURCES_ADC_DRIVER_ADC_DRIVER_H_
 #define SOURCES_ADC_DRIVER_ADC_DRIVER_H_
@@ -14,7 +8,6 @@
 #include "adc_hal.h"
 #include "gpio_driver.h"
 
-/* Enumeration for possible states of the ADC driver */
 typedef enum
 {
 	ADC_DRV_OK,   	/* Successful ADC driver operation */
